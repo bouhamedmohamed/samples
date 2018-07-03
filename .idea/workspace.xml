@@ -68,8 +68,8 @@
       <file leaf-file-name="bankManagementTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bank/bankManagementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="106" selection-start-line="29" selection-start-column="106" selection-end-line="29" selection-end-column="106" />
+            <state relative-caret-position="255">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,12 +208,12 @@
         <option value="$PROJECT_DIR$/src/main/java/calc/two/Calculor.java" />
         <option value="$PROJECT_DIR$/src/main/java/calc/two/Opertaion.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/bankManagement.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bank/bankManagementTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/BankManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/test/java/calc/two/CalculorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/OrderBy.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/Criteria.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bank/bankManagementTest.java" />
       </list>
     </option>
   </component>
@@ -450,33 +450,7 @@
       <recent name="transaction" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.bankManagementTest.should_print_sorted_account">
-    <configuration default="false" name="CovarTest.should_add_many_type_on_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="covar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ZoneGraphic" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="covar" />
-      <option name="MAIN_CLASS_NAME" value="covar.CovarTest" />
-      <option name="METHOD_NAME" value="should_add_many_type_on_list" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.bankManagementTest">
     <configuration default="false" name="CalculorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -491,32 +465,6 @@
       <option name="MAIN_CLASS_NAME" value="calc.two.CalculorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CalculorTest.should_calcul_addition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="calc.two.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ZoneGraphic" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="calc.two" />
-      <option name="MAIN_CLASS_NAME" value="calc.two.CalculorTest" />
-      <option name="METHOD_NAME" value="should_calcul_addition" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -569,6 +517,58 @@
       <option name="MAIN_CLASS_NAME" value="bank.bankManagementTest" />
       <option name="METHOD_NAME" value="should_print_sorted_account" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="bankManagementTest.should_sort_accounts_by_date_inc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZoneGraphic" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bank" />
+      <option name="MAIN_CLASS_NAME" value="bank.bankManagementTest" />
+      <option name="METHOD_NAME" value="should_sort_accounts_by_date_inc" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="bankManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZoneGraphic" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="bank" />
+      <option name="MAIN_CLASS_NAME" value="bank.bankManagementTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -788,19 +788,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CovarTest.should_add_many_type_on_list" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculorTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculorTest.should_calcul_addition" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculorTest.should_write_operations_sorted" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.bankManagementTest.should_print_sorted_account" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculorTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculorTest.should_write_operations_sorted" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.bankManagementTest.should_print_sorted_account" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.bankManagementTest.should_sort_accounts_by_date_inc" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.bankManagementTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.bankManagementTest.should_print_sorted_account" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculorTest.should_write_operations_sorted" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculorTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculorTest.should_calcul_addition" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CovarTest.should_add_many_type_on_list" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.bankManagementTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.bankManagementTest.should_sort_accounts_by_date_inc" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.bankManagementTest.should_print_sorted_account" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculorTest.should_write_operations_sorted" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -821,35 +821,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 11h 54m 14s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
+    <history-entry file="bankManagementTest - 2018.07.03 at 16h 45m 56s.xml">
+      <configuration name="bankManagementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 02m 06s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
+    <history-entry file="bankManagementTest - 2018.07.03 at 16h 47m 25s.xml">
+      <configuration name="bankManagementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 04m 26s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
+    <history-entry file="bankManagementTest - 2018.07.03 at 16h 49m 37s.xml">
+      <configuration name="bankManagementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 07m 13s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
+    <history-entry file="bankManagementTest - 2018.07.03 at 16h 49m 51s.xml">
+      <configuration name="bankManagementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 08m 03s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 08m 26s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 11m 26s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 12m 33s.xml">
-      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
+    <history-entry file="bankManagementTest - 2018.07.03 at 16h 50m 56s.xml">
+      <configuration name="bankManagementTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 12h 14m 32s.xml">
       <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
     </history-entry>
     <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 14h 00m 26s.xml">
       <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bankManagementTest_should_print_sorted_account - 2018.07.03 at 16h 37m 43s.xml">
+      <configuration name="bankManagementTest.should_print_sorted_account" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bankManagementTest_should_sort_accounts_by_date_inc - 2018.07.03 at 16h 44m 59s.xml">
+      <configuration name="bankManagementTest.should_sort_accounts_by_date_inc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bankManagementTest_should_sort_accounts_by_date_inc - 2018.07.03 at 16h 45m 08s.xml">
+      <configuration name="bankManagementTest.should_sort_accounts_by_date_inc" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -863,8 +863,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37416482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37416482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1372,8 +1372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bank/bankManagementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="106" selection-start-line="29" selection-start-column="106" selection-end-line="29" selection-end-column="106" />
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
