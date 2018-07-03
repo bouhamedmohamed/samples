@@ -3,19 +3,19 @@ package bank;
 import java.util.function.Function;
 
 public enum OrderBy {
-    INC("inc", (sordedDiff) -> sordedDiff),
-    DESC("desc", (sordedDiff) -> -sordedDiff);
+    INC("inc", (sordedOder) -> sordedOder),
+    DESC("desc", (sordedOrder) -> -sordedOrder);
 
 
-    private final String order;
-    private final Function<Integer, Integer> function;
+    private final String symbol;
+    private final Function<Integer, Integer> orderFunction;
 
-    OrderBy(String order, Function<Integer, Integer> function) {
-        this.order = order;
-        this.function = function;
+    OrderBy(String symbol, Function<Integer, Integer> orderFunction) {
+        this.symbol = symbol;
+        this.orderFunction = orderFunction;
     }
 
-    public Integer apply(int number) {
-        return function.apply(number);
+    public Integer apply(int sortedOrder) {
+        return orderFunction.apply(sortedOrder);
     }
 }

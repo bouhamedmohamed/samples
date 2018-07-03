@@ -7,16 +7,16 @@ public enum Criteria {
     SOLDE("solde", (bankAccountOne, bankAccountTwo) -> bankAccountOne.compareToBySolde(bankAccountTwo)),
     LOGIN("login", (bankAccountOne, bankAccountTwo) -> bankAccountOne.compareToByLogin(bankAccountTwo));
 
-    private final BiFunction<BankAccount, BankAccount, Integer> comparator;
+    private final BiFunction<BankAccount, BankAccount, Integer> sortByCriteria;
     private final String symbol;
 
-    Criteria(String Symbol, BiFunction<BankAccount, BankAccount, Integer> binaryOperator) {
-        this.comparator = binaryOperator;
-        this.symbol = Symbol;
+    Criteria(String symbol, BiFunction<BankAccount, BankAccount, Integer> sortByCriteria) {
+        this.sortByCriteria = sortByCriteria;
+        this.symbol = symbol;
     }
 
     public Integer apply(BankAccount bankAccountOne, BankAccount bankAccountTwo) {
-        return comparator.apply(bankAccountOne, bankAccountTwo);
+        return sortByCriteria.apply(bankAccountOne, bankAccountTwo);
     }
 
 }
